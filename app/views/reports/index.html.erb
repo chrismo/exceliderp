@@ -1,0 +1,11 @@
+<%- words = generate_words_array %>
+<table border="10" cellpadding="4">
+  <%- 10.times.each do %>
+    <tr>
+      <% 10.times.each do %>
+        <td><%= words[rand(words.length)] %></td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>
+

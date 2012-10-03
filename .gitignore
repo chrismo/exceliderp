@@ -1,0 +1,6 @@
+.bundle
+.rbenv-version
+bin/
+db/*.sqlite3
+log/*.log
+tmp/
