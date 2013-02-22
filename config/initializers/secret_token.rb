@@ -2,6 +2,11 @@
 
 # Your secret key for verifying the integrity of signed cookies.
 # If you change this key, all old signed cookies will become invalid!
+
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Exceliderp::Application.config.secret_token = 'b2804328fa41e87a2a581eba154185914b1843ace6ce97e5b4fa8d2b074c42c5936fdd94182406dcf551c370c33901f6996727739908aa12dcac3e055dc157b7'
+# You can use `rake secret` to generate a secure secret key.
+
+# Make sure your secret_key_base is kept private
+# if you're sharing your code publicly.
+Exceliderp::Application.config.secret_key_base = '9ef90f58950f2332fe5a900050a5adf4af0a6861856a8c764b3500a6c9576e5469ea586e0126cf6171a83bacf78f32d79c93a97f1c1245eca398fe3f4b74b9c1'
